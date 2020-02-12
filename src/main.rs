@@ -83,7 +83,7 @@ fn main() {
                 for pair_2 in second_line {
                     if (pair_1.first_point.poz_y == pair_2.first_point.poz_y) && (pair_1.second_point.poz_y == pair_2.second_point.poz_y) {
                         count = count + 1;
-                        println!("{:?} {:?}", pair_1, pair_2);
+                        println!("{:#?} {:#?}", pair_1, pair_2);
                     }
                 }
             }
